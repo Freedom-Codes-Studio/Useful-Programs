@@ -28,7 +28,7 @@ try:
         i=i+1
         time.sleep(6)
 except KeyboardInterrupt:
-    print("结束")
+    print("Fuck you")
     sys.exit(0)
 input("")
 
