@@ -55,7 +55,7 @@ def decode(text):
 
 if  __name__ == "__main__":
     if input("翻译输入1，反翻译输入2\n") == "1":
-        print(encrypt(input("输入翻译后的语言\n喵语/叽咕语/自定义："),input("输入要翻译>的文本\n")))
+        print(encrypt(input("输入翻译后的语言\n喵语/叽咕语/自定义："),input("输入要翻译的文本\n")))
     else:
         print(decode(input("输入要反翻译的文本\n")))
     input()
